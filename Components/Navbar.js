@@ -16,7 +16,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
           className="text-3xl bg-linear-to-r font-extrabold from-lime-500 via-emerald-600 to-green-700  bg-clip-text text-transparent"
         >
-          SamPada
+          Intrinsic_by_Sampada
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8 text-gray-300">

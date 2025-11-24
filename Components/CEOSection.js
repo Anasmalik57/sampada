@@ -216,7 +216,7 @@ export default function CEOSection() {
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-0.5 bg-linear-to-r from-green-400 to-emerald-600" />
-                <span className="text-green-300 font-semibold">Sampada Kapoor</span>
+                <span className="text-green-300 font-semibold"> Kapoor</span>
               </div>
             </motion.div>
 
@@ -243,7 +243,7 @@ export default function CEOSection() {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-linear-to-r from-teal-700 to-teal-800 hover:from-teal-600 hover:to-teal-700 text-white rounded-full font-bold text-base shadow-2xl shadow-green-500/30 transition-all"
               >
-                Learn More About Sampada
+                Learn More About Intrinsic_by_Sampada
               </motion.a>
             </motion.div>
           </motion.div>

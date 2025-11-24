@@ -127,7 +127,7 @@ export default function InfoSection2() {
               >
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
                 <span className="text-white/70 text-sm font-medium">
-                  Why Choose Sampada
+                  Why Choose Intrinsic_by_Sampada
                 </span>
               </motion.div>
 
@@ -153,7 +153,7 @@ export default function InfoSection2() {
                   />
                 </span>
                 <br />
-                Join SamPada
+                Join Intrinsic_by_Sampada
               </motion.h2>
 
               {/* Description */}

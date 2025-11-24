@@ -161,7 +161,7 @@ export default function InfoSection() {
                     <FaBrain className="text-3xl text-white" />
                   </motion.div>
                   <p className="text-white text-lg leading-relaxed">
-                    SamPada is an invite-only program to accelerate growth. With advanced neurology & a tailored roadmap, we help you exceed your potential.
+                    Intrinsic_by_Sampada is an invite-only program to accelerate growth. With advanced neurology & a tailored roadmap, we help you exceed your potential.
                   </p>
                 </div>
               </motion.div>

@@ -29,7 +29,7 @@ const Footer = () => {
                 className="text-4xl font-bold text-white mb-2"
                 whileHover={{ scale: 1.05 }}
               >
-                SamPada
+                Intrinsic_by_Sampada
               </motion.h3>
               <p className="text-gray-400 text-sm">
                 Elite Brain Science Program.
@@ -71,11 +71,11 @@ const Footer = () => {
                   MAIL US DIRECTLY
                 </p>
                 <motion.a
-                  href="mailto:hello@aampada.in"
+                  href="mailto:hello@intrinsic_by_sampada.in"
                   whileHover={{ scale: 1.05, x: 5 }}
                   className="text-white text-base font-medium hover:text-lime-400 transition-colors"
                 >
-                  hello@sampada.in
+                  hello@intrinsic_by_sampada.in
                 </motion.a>
               </div>
             </motion.div>
@@ -89,7 +89,7 @@ const Footer = () => {
             className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4"
           >
             <p className="text-gray-500 text-sm">
-              2025 Sampada. All Right Reserved.
+              2025 Sntrinsic_by_Sampada. All Right Reserved.
             </p>
             <div className="flex gap-4">
               <motion.a
