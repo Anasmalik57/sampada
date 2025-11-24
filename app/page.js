@@ -9,6 +9,7 @@ import InfoSection from "@/Components/InfoSections";
 import InfoSection2 from "@/Components/InfoSection2";
 import FAQComponent from "@/Components/Faq";
 import Footer from "@/Components/Footer";
+import CEOSection from "@/Components/CEOSection";
 
 const page = () => {
   const cursorX = useMotionValue(-100);
@@ -36,6 +37,7 @@ const page = () => {
 
       <HeroSection />
       <InfoSection />
+      <CEOSection />
       <InfoSection2 />
       <FAQComponent />
       <Footer />
