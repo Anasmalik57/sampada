@@ -14,7 +14,7 @@ const Navbar = () => {
       >
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="text-3xl font-bold bg-linear-to-r from-lime-500 via-emerald-600 to-green-700  bg-clip-text text-transparent"
+          className="text-3xl bg-linear-to-r font-extrabold from-lime-500 via-emerald-600 to-green-700  bg-clip-text text-transparent"
         >
           SamPada
         </motion.div>

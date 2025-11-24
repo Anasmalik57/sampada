@@ -274,6 +274,8 @@ export default function InfoSection2() {
                   >
                     <Image
                       src={img}
+                      width={500}
+                      height={500}
                       alt={`Person ${i + 1}`}
                       className="w-full h-full object-cover"
                     />

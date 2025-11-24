@@ -48,8 +48,7 @@ const ActionCardsComponent = () => {
                 </div>
                 <Link
                   href={card.link}  
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
+                  
                   className="px-6 py-2.5 border-2 border-gray-900 rounded-full hover:border-none transition-all duration-150 ease-in-out hover:bg-radial-[at_95%_15%] from-white to-zinc-900 to-75% text-gray-900 text-xs font-semibold tracking-wide hover:bg-gray-900 hover:text-white"
                 >
                   {card.button}
