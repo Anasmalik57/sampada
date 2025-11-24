@@ -1,11 +1,9 @@
 "use client";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import {
-  FaArrowRight,
-  
-} from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import { targetAudiences } from "./ComponentsData";
+import Image from "next/image";
 
 export default function InfoSection2() {
   const potentialRef = useRef(null);
@@ -73,7 +71,10 @@ export default function InfoSection2() {
         ref={potentialRef}
         className="relative bg-black py-20 lg:py-32 overflow-hidden"
       >
-        <section ref={blackSectionRef} className="relative bg-black py-20 md:py-24overflow-hidden" >
+        <section
+          ref={blackSectionRef}
+          className="relative bg-black py-20 md:py-24overflow-hidden"
+        >
           {/* Animated Background Grid */}
           <div className="absolute inset-0 opacity-10">
             <div
@@ -255,8 +256,8 @@ export default function InfoSection2() {
                   "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=300&fit=crop",
                   "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=300&fit=crop",
                   "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=300&fit=crop",
-                  //   'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop',
                   "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=300&fit=crop",
+                  //   'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop',
                 ].map((img, i) => (
                   <motion.div
                     key={i}
@@ -271,7 +272,7 @@ export default function InfoSection2() {
                         : ""
                     }`}
                   >
-                    <img
+                    <Image
                       src={img}
                       alt={`Person ${i + 1}`}
                       className="w-full h-full object-cover"
