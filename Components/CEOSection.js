@@ -216,7 +216,7 @@ export default function CEOSection() {
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-12 h-0.5 bg-linear-to-r from-green-400 to-emerald-600" />
-                <span className="text-green-300 font-semibold"> Kapoor</span>
+                <span className="text-green-300 font-semibold">Sampada Kapoor</span>
               </div>
             </motion.div>
 
