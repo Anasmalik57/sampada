@@ -10,11 +10,11 @@ const Navbar = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative z-20 flex items-center justify-between px-8 lg:px-16 py-6"
+        className="relative z-20 flex items-center justify-between px-4 md:px-8 lg:px-16 py-6"
       >
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="text-3xl bg-linear-to-r font-extrabold from-lime-500 via-emerald-600 to-green-700  bg-clip-text text-transparent"
+          className="text-xl sm:text-3xl bg-linear-to-r font-extrabold from-lime-500 via-emerald-600 to-green-700  bg-clip-text text-transparent"
         >
           Intrinsic_by_Sampada
         </motion.div>
@@ -43,7 +43,9 @@ const Navbar = () => {
           whileTap={{ scale: 0.95 }}
           className="px-6 py-3 bg-white text-black rounded-full font-semibold text-xs sm:text-sm flex items-center gap-2 hover:shadow-lg hover:shadow-white/20 transition-shadow"
         >
-          REQUEST AN INVITE
+          <span className="hidden md:block">REQUEST AN INVITE</span>
+          <span className="md:hidden uppercase">Connect</span>
+
           <FaArrowRight className="text-xs" />
         </motion.button>
       </motion.nav>
